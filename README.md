@@ -1,2 +1,3 @@
-# Order management ddd eda
-User Managetment with Following Domain-Driven Design and Event driven architecture
+# Tern-Rs: Order management ddd eda
+
+Order Management with Following Domain-Driven Design (DDD), Event-Driven-Architecture (EDA) and Clean-Architecture (CA)
