@@ -1,7 +1,18 @@
 [package]
-name = "user_management"
+name = "tern-rs"
 version = "0.1.0"
 edition = "2024"
+
+[lib]
+path = "backend/src/lib.rs"
+
+[[bin]]
+name = "tern-rs"
+path = "backend/src/main.rs"
+
+[[test]]
+name = "tests"
+path = "backend/tests/mod.rs"
 
 [dependencies]
 uuid = { version = "1.19.0", features = ["v4"] }

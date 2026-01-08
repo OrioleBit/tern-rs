@@ -1,4 +1,4 @@
-use user_management::user_management::domain::entities::user::User;
+use tern_rs::user_management::domain::entities::user::User;
 use uuid::Uuid;
 
 #[test]
